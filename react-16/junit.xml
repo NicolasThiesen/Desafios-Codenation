@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="16" failures="1" time="5.247">
+  <testsuite name="React Instagram APP" errors="0" failures="1" skipped="0" timestamp="2020-06-04T18:56:44" time="4.179" tests="16">
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Loading&gt; component" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Loading&gt; component" time="0.028">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Post&gt; component" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Post&gt; component" time="0.013">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Story&gt; component" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Story&gt; component" time="0.012">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;SuccessMessage&gt; component" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;SuccessMessage&gt; component" time="0.008">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Topbar&gt; component" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Topbar&gt; component" time="0.005">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;User&gt; component" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;User&gt; component" time="0.003">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;App&gt; container" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;App&gt; container" time="0.07">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Posts&gt; container" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Posts&gt; container" time="0.003">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Stories&gt; container" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Stories&gt; container" time="0.002">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;UserForm&gt; container" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;UserForm&gt; container" time="0.013">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;UserPosts&gt; container" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;UserPosts&gt; container" time="0.005">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;UserProfile&gt; container" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;UserProfile&gt; container" time="0.007">
+    </testcase>
+    <testcase classname="React Instagram APP should should render properly the &lt;FeedRoute&gt; component" name="React Instagram APP should should render properly the &lt;FeedRoute&gt; component" time="0.02">
+    </testcase>
+    <testcase classname="React Instagram APP should should render properly the &lt;NewUserRoute&gt; component" name="React Instagram APP should should render properly the &lt;NewUserRoute&gt; component" time="0.006">
+    </testcase>
+    <testcase classname="React Instagram APP should should render properly the &lt;ProfileRoute&gt; component" name="React Instagram APP should should render properly the &lt;ProfileRoute&gt; component" time="0.027">
+      <failure>TypeError: Cannot read property &apos;params&apos; of undefined
+    at C:\Users\aluno\Codenation\react-16\src\routes\ProfileRoute\ProfileRoute.jsx:18:42
+    at commitHookEffectListMount (C:\Users\aluno\Codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:19731:26)
+    at commitPassiveHookEffects (C:\Users\aluno\Codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:19769:11)
+    at HTMLUnknownElement.callCallback (C:\Users\aluno\Codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:188:14)
+    at invokeEventListeners (C:\Users\aluno\Codenation\react-16\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\aluno\Codenation\react-16\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\aluno\Codenation\react-16\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\aluno\Codenation\react-16\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\nodes\HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\aluno\Codenation\react-16\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (C:\Users\aluno\Codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:237:16)
+    at invokeGuardedCallback (C:\Users\aluno\Codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:292:31)
+    at flushPassiveEffectsImpl (C:\Users\aluno\Codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:22853:9)
+    at unstable_runWithPriority (C:\Users\aluno\Codenation\react-16\node_modules\scheduler\cjs\scheduler.development.js:653:12)
+    at runWithPriority$1 (C:\Users\aluno\Codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:11039:10)
+    at flushPassiveEffects (C:\Users\aluno\Codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:22820:12)
+    at Object.&lt;anonymous&gt;.flushWork (C:\Users\aluno\Codenation\react-16\node_modules\react-dom\cjs\react-dom-test-utils.development.js:876:10)
+    at act (C:\Users\aluno\Codenation\react-16\node_modules\react-dom\cjs\react-dom-test-utils.development.js:994:9)
+    at render (C:\Users\aluno\Codenation\react-16\node_modules\@testing-library\react\dist\pure.js:82:26)
+    at Object.&lt;anonymous&gt; (C:\Users\aluno\Codenation\react-16\src\__tests__\submit.test.js:221:29)
+    at Object.asyncJestTest (C:\Users\aluno\Codenation\react-16\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\aluno\Codenation\react-16\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\aluno\Codenation\react-16\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\aluno\Codenation\react-16\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="React Instagram APP should should render properly the &lt;UsersRoute&gt; component" name="React Instagram APP should should render properly the &lt;UsersRoute&gt; component" time="0.008">
+    </testcase>
+  </testsuite>
+</testsuites>

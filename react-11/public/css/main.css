@@ -1,0 +1,256 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400, 700);
+
+* {
+  box-sizing: border-box;
+}
+body {
+	font-size: 17px;
+	font-family: 'Roboto', sans-serif;
+	background: rgb(235, 231, 231);
+}
+a{
+	cursor: pointer;
+}
+a,ul{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+header {
+	background-image: url(../img/capa-madmax2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+nav .menu-bar{
+  justify-content: space-between;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+nav .menu-pages ul li{
+	padding: 0 30px;
+}
+
+nav .profile {
+	padding-left: 2%;
+	display: flex;
+	align-content: space-between;
+	align-items: center;
+}
+
+nav .profile img{
+	width: 50px;
+	border-radius: 50%;
+}
+
+nav .profile div{
+	margin-left: 25px;
+}
+
+nav .menu-pages ul {
+  display: flex;
+  align-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  cursor: pointer;
+}
+
+header .main-content{
+	margin-top: 350px;
+	color: white;
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+header .main-content h1{
+	font-size: 70px;
+}
+
+header .main-content .genres{
+	width: 250px;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+	display: flex;
+
+}
+
+header .main-content .genres a{
+	font-size: 15px;
+	color: white;
+}
+
+.yellow{
+	color: rgba(255, 196, 0, 0.781);
+}
+
+header .main-content button {
+	border: none;
+	background: rgb(223, 171, 0);
+	text-decoration: none;
+	cursor: pointer;
+	padding: 16px 32px;
+	border-radius: 40px;
+	margin-top: 20px;
+}
+
+header .main-content p{
+	padding: 0 20px;
+}
+
+main .options {
+	border-bottom: 1px solid rgb(122, 122, 122);
+}
+
+main .options nav{
+	margin: 0 auto;
+	width: 60%;
+}
+
+main .options ul{
+	justify-content: space-between;
+	display: flex;
+	align-items: center;
+}
+
+main .options a {
+	padding: 17px 0;
+	font-weight: bold;
+	font-size: 13px;
+	color: rgb(223, 171, 0);
+}
+
+main .options a:hover{
+	border-bottom: 1px solid rgb(223, 171, 0);
+}
+
+.movies{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.movies .card{
+	max-width: 220px;
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background: white;
+	margin: 10px 10px;
+	border-radius: 10px;
+}
+
+.movies .card figure {
+	position: relative;
+	margin: 0 0;
+	width: 100%;
+}
+
+.movies .card figure div {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	margin: 40% auto;
+	flex-direction: column;
+	visibility: hidden;
+	position: absolute;
+	font-size: 50px;
+	width: 100%;
+	height: 100%;
+}
+
+.movies .card:hover figure div {
+	visibility: visible;
+}
+.movies .card figure div a {
+	color: white;
+}
+
+.movies .card figure div h2 {
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.movies .card img{
+	width: 100%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.movies .card:hover img{
+	filter: saturate(30%);
+}
+
+.movies .card .poster-content{
+	margin-left: 20px;
+	width: 80%;
+}
+
+.movies .card .poster-content h2 {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.movies .card .poster-content div{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.movies .card .poster-content a{
+	font-size: 14px;
+	cursor: pointer !important;
+}
+
+.movies .card .poster-content div a i{
+	font-size: 25px;
+	color: rgb(122, 122, 122);
+}
+
+.movies .card .poster-content div a i:hover{
+	color: red;
+}
+
+footer{
+	background: white;
+	margin-top: 20px;
+	width: 100%;
+	padding: 30px 0 ;
+}
+
+footer .footer, footer .footer div{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+footer .footer div a{
+	color: rgb(126, 126, 126);
+	padding: 0 15px;
+	font-size: 30px;
+}
