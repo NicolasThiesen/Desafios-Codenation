@@ -1,7 +1,7 @@
 export const config = {
   spotify: {
     authorizationURL: 'https://accounts.spotify.com/authorize',
-    clientId: '5fc5393145e940499928914c227d0745',
+    clientId: process.env.REACT_APP_CLIENT_ID,
     redirectUrl: `${window.location.origin}/authorize`,
     webAPI: 'https://api.spotify.com/v1',
     scopes: [
